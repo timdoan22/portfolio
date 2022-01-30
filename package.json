@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --watch scss/styles.scss:../css/styles.css"
+  },
+  "author": "Tim Doan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}
