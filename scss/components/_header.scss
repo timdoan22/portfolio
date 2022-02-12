@@ -1,0 +1,42 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+@import "../abstracts/colors";
+
+.header {
+    z-index: 0;
+    margin-top: -3rem;
+    position: relative;
+    &::after {
+        @include position(absolute, 0, 0, null, null);
+        content: "";
+        width: 60%;
+        height: calc(100vh - 7rem);
+        background: url("../assets/images/header-bg.png");        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%);
+        @include responsive(sm) {
+            height: calc(100vh - 8.5rem);
+            clip-path: none;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    &__data {
+        width: 100%;
+        height: calc(100vh - 7rem);
+        @include flexBox(null, center);
+        @include responsive(lg) {
+            height: calc(50vh - 50rem);
+            margin-top: calc(50vh - 7rem);
+            justify-content: center;
+        }
+        @include responsive(sm) {
+            position: absolute;
+            margin-top: 45vh;
+            height: 60%;
+            }
+        @include responsive(sm) {
+            justify-content: flex-start;
+        }
+    }
+}
