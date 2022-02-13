@@ -203,6 +203,45 @@ body {
     justify-content: flex-start;
   }
 }
+.header__data__contents__top {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000;
+}
+.header__data__contents__heading {
+  margin-top: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  background: linear-gradient(45deg, #000, 50%, #10b981 50%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: capitalize;
+}
+@media (max-width: 768px) {
+  .header__data__contents__heading {
+    background: linear-gradient(45deg, #000, 50%, #10b981 50%);
+    -webkit-background-clip: text;
+  }
+}
+.header__data__contents__bottom {
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#name {
+  margin-left: -0.4%;
+}
+
+@media (max-width: 768px) {
+  #title {
+    display: block;
+  }
+}
 
 .container {
   width: 100%;
