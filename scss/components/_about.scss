@@ -1,0 +1,36 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+@import "../abstracts/colors";
+
+.content-block {
+    height: 48vh;
+    @include responsive(sm) {
+        height: 30vh;
+    }
+}
+.heading {
+    @include responsive(sm) {
+        margin-top: -30%;
+        width: 80%;
+        padding-left: 8%;
+    }
+    @include responsive(xsm) {
+        margin-top: -60%;
+        width: 90%;
+    }
+}
+
+.about {
+    padding: 8rem 0;
+    background: linear-gradient(to right, $green-50 25%, $white 50%);
+    @include responsive(lg) {
+        position: absolute;
+        margin-top: 45vh;
+        height: 100%;
+    }
+    @include responsive(sm) {
+        position: absolute;
+        margin-top: 80vh;
+        height: 60%;
+    }
+}

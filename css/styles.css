@@ -243,6 +243,48 @@ body {
   }
 }
 
+.content-block {
+  height: 48vh;
+}
+@media (max-width: 768px) {
+  .content-block {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    margin-top: -30%;
+    width: 80%;
+    padding-left: 8%;
+  }
+}
+@media (max-width: 480px) {
+  .heading {
+    margin-top: -60%;
+    width: 90%;
+  }
+}
+
+.about {
+  padding: 8rem 0;
+  background: linear-gradient(to right, #ecfdf5 25%, #fff 50%);
+}
+@media (max-width: 1200px) {
+  .about {
+    position: absolute;
+    margin-top: 45vh;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    position: absolute;
+    margin-top: 80vh;
+    height: 60%;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 120rem;
