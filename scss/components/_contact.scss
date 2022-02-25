@@ -1,0 +1,84 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+@import "../abstracts/colors";
+
+#contact {
+    background: $green-300;
+    display: flex;
+    justify-content: center;
+    height: 64vh;
+}
+    .heading {
+        position: relative;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        text-align: center;
+        margin: -1% 0 2% 0;
+        @include responsive(md) {
+            margin-left: 2%;
+        }
+    }
+        .contact__content {
+            &__label {
+                align-items: center;
+                display: inline-block;
+                font-size: 1.1rem;
+                padding: 2% 0 0 76%;
+                @include responsive(lg) {
+                    margin-left: -6%;
+                }
+                @include responsive(sm) {
+                    margin-left: -54%;
+                }
+                @include responsive(xsm) {
+                    margin-left: -66%;
+                }
+                
+            }
+                &__input {
+                    height: 36px;
+                    width: 300px;
+                    border: none;
+                    border-radius: 2%;
+                    font-size: 1.2rem;
+                    padding-left: 2%;
+                }
+                &__message {
+                    height: 150px;
+                    width: 300px;
+                    border: none;
+                    font-size: 1.2rem;
+                    box-sizing: border-box;
+                    padding: 4% 0 0 2%;
+                    &::placeholder {
+                        text-align: left;
+                        vertical-align: top;
+                    }
+                }
+            &__button {
+                margin: 1.6% 0 0 76%;
+                text-align: center;
+                border: none;
+                height: 36px;
+                width: 300px;
+                background-color: $green-800;
+                color: $white;
+                &:hover {
+                    background-color: $black;
+                    color: $white
+                }
+                @include responsive(lg) {
+                    margin-left: 70%;
+                }
+                @include responsive(md) {
+                    margin-left: 70%;
+                }
+                @include responsive(sm) {
+                    margin-left: 22%;
+                }
+                @include responsive(xsm) {
+                    margin-left: 10%;
+                }
+            }
+        }
+        
