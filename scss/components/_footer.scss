@@ -1,0 +1,34 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+@import "../abstracts/colors";
+
+.footer {
+    margin: 0;
+    height: 10vh;
+    @include responsive(lg) {
+        height: 20vh;
+    }
+    @include responsive(md) {
+        height: 16vh;
+    }
+    @include responsive(xsm) {
+        height: 12vh;
+    }
+}
+    .socials {
+        margin-top: -2%;
+        font-size: 2.6rem;
+        text-align: center;
+        &__links {
+            margin: 0 0.6%;
+            color: $green-800;
+            &:hover {
+                color: $green-400;
+            }
+        }
+    }
+    .copyright-text {
+        font-size: 1.1rem;
+        padding-top: 2%;
+        text-align: center;
+    }
