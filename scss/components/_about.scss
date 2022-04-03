@@ -6,16 +6,17 @@
     height: 48vh;
     @include responsive(sm) {
         height: 30vh;
+        margin-top: -20%;
     }
 }
 .heading {
     @include responsive(sm) {
-        margin-top: -30%;
+        margin-top: -20%;
         width: 80%;
         padding-left: 8%;
     }
     @include responsive(xsm) {
-        margin-top: -60%;
+        margin-top: -40%;
         width: 90%;
     }
 }
@@ -31,7 +32,7 @@
     @include responsive(sm) {
         position: absolute;
         margin-top: 80vh;
-        height: 60%;
+        height: 80%;
     }
     &__image {
         width: 26rem;
@@ -46,10 +47,9 @@
         @include responsive(sm) {
             height: 14rem;
             width: 14rem;
-            margin: -20% 0 0 22%;
+            margin: -60% 0 0 22%;
         }
         img {
-            // margin: 20% 0 0 20%;
             width: 70%;
             height: 100%;
             object-fit: fill;
