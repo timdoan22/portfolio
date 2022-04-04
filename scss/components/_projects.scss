@@ -27,6 +27,7 @@
             padding: 2%;
             @include responsive(sm) {
                 padding: 0 2% 1% 2%;
+                margin-bottom: 20%;
             }
             &__image {
                 padding-top: 2rem;
