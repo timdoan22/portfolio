@@ -11,7 +11,7 @@
 }
 .about-profile {
     @include responsive(iphone12) {
-        margin-top: -38%;
+        margin-top: -26%;
         height: 36vh;
     }
     @include responsive(xxsm) {
@@ -48,6 +48,9 @@
         position: absolute;
         margin-top: 80vh;
         height: 80%;
+    }
+    @include responsive(iphone12) {
+        height: 42vh;
     }
     &__image {
         width: 26rem;

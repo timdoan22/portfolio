@@ -255,7 +255,7 @@ body {
 
 @media (max-width: 400px) {
   .about-profile {
-    margin-top: -38%;
+    margin-top: -26%;
     height: 36vh;
   }
 }
@@ -302,6 +302,11 @@ body {
     position: absolute;
     margin-top: 80vh;
     height: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .about {
+    height: 42vh;
   }
 }
 .about__image {
@@ -412,12 +417,12 @@ body {
 }
 @media (max-width: 400px) {
   .projects {
-    height: 134vh;
+    height: 128vh;
   }
 }
 @media (max-width: 400px) {
   .projects .container {
-    margin-top: 10%;
+    margin-top: 0;
   }
 }
 .projects .heading {
@@ -526,6 +531,11 @@ body {
   justify-content: center;
   height: 64vh;
 }
+@media (max-width: 400px) {
+  #contact {
+    height: 51vh;
+  }
+}
 
 .heading {
   position: relative;
@@ -539,7 +549,7 @@ body {
     margin-left: 2%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .heading {
     margin-top: -14%;
   }

@@ -7,6 +7,9 @@
     display: flex;
     justify-content: center;
     height: 64vh;
+    @include responsive(iphone12) {
+        height: 51vh;
+    }
 }
     .heading {
         position: relative;
@@ -17,7 +20,7 @@
         @include responsive(md) {
             margin-left: 2%;
         }
-        @include responsive(xxsm) {
+        @include responsive(iphone12) {
             margin-top: -14%;
         }
     }

@@ -5,11 +5,11 @@
 .projects {
     background-color: $white;
     @include responsive(iphone12) {
-        height: 134vh;
+        height: 128vh;
     }
     .container {
         @include responsive(iphone12) {
-            margin-top: 10%;
+            margin-top: 0;
         }
     }
     .heading {
