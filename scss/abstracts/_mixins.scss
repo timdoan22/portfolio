@@ -40,6 +40,10 @@
     @media (max-width: map-get($breakPoints, "xsm")) {
       @content;
     }
+  } @else if $screen == iphone12 {
+    @media (max-width: map-get($breakPoints, "iphone12")) {
+      @content;
+    }
   } @else if $screen == xxsm {
     @media (max-width: map-get($breakPoints, "xxsm")) {
       @content;

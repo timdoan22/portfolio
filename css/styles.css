@@ -253,6 +253,25 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+  .about-profile {
+    margin-top: -38%;
+    height: 36vh;
+  }
+}
+@media (max-width: 375px) {
+  .about-profile {
+    margin-top: -38%;
+    height: 36vh;
+  }
+}
+
+@media (max-width: 400px) {
+  #about-title {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .heading {
     margin-top: -20%;
@@ -318,6 +337,11 @@ body {
     margin-top: 10rem;
   }
 }
+@media (max-width: 400px) {
+  .about__image img {
+    margin-top: 30%;
+  }
+}
 @media (max-width: 375px) {
   .about__image img {
     margin-top: 16%;
@@ -371,6 +395,11 @@ body {
     padding-left: 8%;
   }
 }
+@media (max-width: 400px) {
+  .about__info__message {
+    font-size: 8px;
+  }
+}
 @media (max-width: 375px) {
   .about__info__message {
     font-size: 8px;
@@ -398,7 +427,7 @@ body {
     padding-left: 2.2%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .projects .heading {
     font-size: 12px;
   }
@@ -891,6 +920,56 @@ body {
     max-width: 91.6666666667%;
   }
   .col-xsm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .col-iphone12-1 {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .col-iphone12-2 {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .col-iphone12-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-iphone12-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .col-iphone12-5 {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .col-iphone12-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-iphone12-7 {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .col-iphone12-8 {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .col-iphone12-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-iphone12-10 {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .col-iphone12-11 {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .col-iphone12-12 {
     flex-basis: 100%;
     max-width: 100%;
   }

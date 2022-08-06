@@ -18,7 +18,7 @@
         @include responsive(sm) {
             padding-left: 2.2%;
         }
-        @include responsive(xxsm) {
+        @include responsive(iphone12) {
             font-size: 12px;
         }
     }
