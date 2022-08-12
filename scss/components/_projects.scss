@@ -4,8 +4,11 @@
 
 .projects {
     background-color: $white;
+    @include responsive(iphone12) {
+        height: 134vh;
+    }
     .container {
-        @include responsive(xxsm) {
+        @include responsive(iphone12) {
             margin-top: 10%;
         }
     }
@@ -83,6 +86,16 @@
             } 
             &:hover{ 
                 opacity: 88%;
+            }
+        }
+        .content-block {
+            @include responsive(iphone12) {
+                margin-bottom: 14%;
+            }
+        }
+        .static-project {
+            @include responsive(iphone12) {
+                margin-bottom: 24%;
             }
         }
 }
