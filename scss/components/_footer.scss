@@ -26,6 +26,9 @@
                 color: $green-400;
             }
         }
+        @include responsive(xxsm) {
+            margin-top: -22%;
+        }
     }
     .copyright-text {
         font-size: 1.1rem;

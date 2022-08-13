@@ -621,6 +621,11 @@ body {
 .socials__links:hover {
   color: #34d399;
 }
+@media (max-width: 375px) {
+  .socials {
+    margin-top: -22%;
+  }
+}
 
 .copyright-text {
   font-size: 1.1rem;
