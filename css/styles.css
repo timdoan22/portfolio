@@ -398,6 +398,11 @@ body {
     padding-left: 2.2%;
   }
 }
+@media (max-width: 375px) {
+  .projects .heading {
+    font-size: 12px;
+  }
+}
 @media (max-width: 768px) {
   .projects {
     padding: 0 0 10rem 0;
@@ -492,11 +497,15 @@ body {
 }
 @media (max-width: 375px) {
   .heading {
-    margin-top: -40%;
-    font-size: x-small;
+    margin-top: -14%;
   }
 }
 
+@media (max-width: 375px) {
+  .contact__content #contact-form {
+    margin-right: 30%;
+  }
+}
 .contact__content__label {
   align-items: center;
   display: inline-block;

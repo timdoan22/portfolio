@@ -18,6 +18,9 @@
         @include responsive(sm) {
             padding-left: 2.2%;
         }
+        @include responsive(xxsm) {
+            font-size: 12px;
+        }
     }
     padding: 2rem 0 10rem 0;
     @include responsive(sm) {
