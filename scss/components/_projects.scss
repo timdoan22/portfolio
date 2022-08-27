@@ -4,6 +4,11 @@
 
 .projects {
     background-color: $white;
+    .container {
+        @include responsive(xxsm) {
+            margin-top: 10%;
+        }
+    }
     .heading {
         display: inline;
         font-size: 1.7rem;

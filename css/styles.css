@@ -381,6 +381,11 @@ body {
   background-color: #fff;
   padding: 2rem 0 10rem 0;
 }
+@media (max-width: 375px) {
+  .projects .container {
+    margin-top: 10%;
+  }
+}
 .projects .heading {
   display: inline;
   font-size: 1.7rem;
