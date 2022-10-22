@@ -58,6 +58,9 @@
             @include responsive(sm) {
                 margin-top: 10rem;
             }
+            @include responsive(xxsm) {
+                margin-top: 16%;
+            }
         }
         &__small {
             @include position(absolute, -6rem, null, null, -3rem);
@@ -94,6 +97,9 @@
             @include responsive(sm) {
                 font-size: 1.1rem;
                 padding-left: 8%;
+            }
+            @include responsive(xxsm) {
+                font-size: 8px;
             }
         }
     }

@@ -17,6 +17,10 @@
         @include responsive(md) {
             margin-left: 2%;
         }
+        @include responsive(xxsm) {
+            margin-top: -40%;
+            font-size: x-small;
+        }
     }
         .contact__content {
             &__label {
