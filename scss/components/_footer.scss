@@ -26,7 +26,7 @@
                 color: $green-400;
             }
         }
-        @include responsive(xxsm) {
+        @include responsive(iphone12) {
             margin-top: -22%;
         }
     }

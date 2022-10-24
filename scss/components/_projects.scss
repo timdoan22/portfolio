@@ -7,6 +7,9 @@
     @include responsive(iphone12) {
         height: 128vh;
     }
+    @include responsive(xxsm) {
+        height: 160vh;
+    }
     .container {
         @include responsive(iphone12) {
             margin-top: 0;
@@ -92,10 +95,16 @@
             @include responsive(iphone12) {
                 margin-bottom: 14%;
             }
+            @include responsive(xxsm) {
+                margin-bottom: 26%;
+            }
         }
         .static-project {
             @include responsive(iphone12) {
                 margin-bottom: 24%;
+            }
+            @include responsive(xxsm) {
+                margin-bottom: 40%;
             }
         }
 }

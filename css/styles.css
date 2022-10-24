@@ -420,6 +420,11 @@ body {
     height: 128vh;
   }
 }
+@media (max-width: 375px) {
+  .projects {
+    height: 160vh;
+  }
+}
 @media (max-width: 400px) {
   .projects .container {
     margin-top: 0;
@@ -519,9 +524,19 @@ body {
     margin-bottom: 14%;
   }
 }
+@media (max-width: 375px) {
+  .projects .content-block {
+    margin-bottom: 26%;
+  }
+}
 @media (max-width: 400px) {
   .projects .static-project {
     margin-bottom: 24%;
+  }
+}
+@media (max-width: 375px) {
+  .projects .static-project {
+    margin-bottom: 40%;
   }
 }
 
@@ -534,6 +549,11 @@ body {
 @media (max-width: 400px) {
   #contact {
     height: 51vh;
+  }
+}
+@media (max-width: 375px) {
+  #contact {
+    height: 60vh;
   }
 }
 
@@ -675,7 +695,7 @@ body {
 .socials__links:hover {
   color: #34d399;
 }
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .socials {
     margin-top: -22%;
   }

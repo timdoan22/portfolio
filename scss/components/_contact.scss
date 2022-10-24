@@ -10,6 +10,9 @@
     @include responsive(iphone12) {
         height: 51vh;
     }
+    @include responsive(xxsm) {
+        height: 60vh;
+    }
 }
     .heading {
         position: relative;
